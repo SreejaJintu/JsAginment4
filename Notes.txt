@@ -1,0 +1,233 @@
+Array Methods
+
+concat() 
+▪ By concat() method we can concatenate more than one arrays at the end of the main array.
+▪ In this case newArray doesn’t store in to the mainArray.
+▪ So , we have to require a create new array by own self.
+
+every (functionName) :
+▪ If for all element , condition is true then give true.
+▪ Otherwise give false
+
+Fill()
+▪ fill method fill every elements of array with a static value
+▪ Otherwise give false
+
+Find(functionName)
+▪ If for at least one element , condition is true then give that
+first element for which condition is true.
+▪ For all elements , condition is false then give undefined.
+
+findIndex (functionName) 
+▪ If for all element , condition is true then give index of that
+first element for which condition is true.
+▪ Otherwise give -1
+
+Flat(depth)
+> Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+>The depth level specifying how deep a nested array structure should be flattened. Defaults to 1.
+
+includes()
+>includes() returns
+▪ True if element isfind
+▪ Flase if element is not find.
+
+indexOf()
+Syntax : a.indexOf(“search item” , starting index)
+✓ indexOf() method returns elements’ index if element is find out otherwise returns -1
+✓ In this method always traversal done in left to right direction
+✓ Here case sensitive searching occurs.
+✓ Starting index by default is 0.
+
+join()
+▪ By join() method we can convert whole array in to the one string.
+▪ In this case newString created.
+▪ So , we have to require a create new variable to store new string.
+
+ lastIndexOf():
+✓ Syntax : a.lastIndexOf(“search item” ,starting index)
+✓ lastIndexOf() method returns elements’ index if element is find out otherwise returns -1
+
+ some (functionName) :
+▪ If for at least one element , condition is true then give true.
+▪ For all elements , condition is false then give false.
+
+ every (functionName) :
+▪ If for all element , condition is true then give true.
+▪ Otherwise give false
+
+
+pop()
+▪ By pop() method we can remove last element of the array.
+▪ Then store newArray store in to the mainArray.
+
+
+push()
+▪ By push() method we can add element at the last position of the array.
+▪ Then store newArray store in to the mainArray.
+
+
+reverse()
+▪ reverse() method do the reverse the whole array.
+▪ Then store the (new)reverse array in to the main array.
+
+
+shift()
+▪ By shift() method we can remove first element of the array.
+▪ Then store newArray store in to the mainArray.
+
+
+unshift()
+▪ By unshift() method we can add element at the first position of the array.
+▪ Then store newArray store in to the mainArray.
+
+
+slice()
+▪ By slice() method we can get multiple elements from any position.
+
+ some (functionName) 
+▪ If for at least one element , condition is true then give true.
+▪ For all elements , condition is false then give false.
+
+
+ every (functionName) 
+▪ If for all element , condition is true then give true.
+▪ Otherwise give false
+
+
+sort() 
+▪ sort() method do the sort the array alphabetically or numerically .
+▪ Then store the (new)sorted array in to the main array .
+
+splice()
+▪ By splice() method we can insert a element at any position
+▪ By splice() method we can delete multiple elements for any range
+▪ By splice() method we can perform both above operations parallelly
+▪ Syntax :
+▪ var c = a.splice(index , how many delete , elements’ values)
+
+toString()
+>This method converts array in to string, and returns the result
+
+
+▪ filter (functionName) :
+✓ Thisfilter() method return an array.
+✓ This array consist a elements for , which condition is true.
+✓ This array is Empty. When for at least one element condition
+is not match.
+
+Reduce()
+The reduce() method  is to iterate and “reduce” an array's values into one value.
+
+Map ()
+.Creates a new array with the results of calling a provided function on every element in the calling array.
+
+> forEach()
+. Executes a provided function once for each array element.
+
+
+///////STRING METHOD/////////
+
+In JavaScript, strings are used to represent text. To work with strings, JavaScript provides many built-in methods. 
+These methods search for parts of a string, extract pieces of a string, change the case of a string, and do other useful things. Knowing these methods is important for handling and processing text in JavaScript.
+
+1 concat:
+.The concat method combines the text of two or more strings and returns a new string.
+
+2 includes:
+// The includes method checks if a string contains a specified substring and returns true or false.
+
+3 indexOf:
+// The indexOf method returns the position of the first occurrence of a specified value in a string.
+// If the value is not found, it returns -1.
+
+4. lastIndexOf:
+// The lastIndexOf method returns the position of the last occurrence of a specified value in a string. 
+// If the value is not found, it returns -1.
+
+
+padEnd(length, string);
+.The padEnd() method is a string method.
+.To pad a number, convert the number to a string first.
+.parameter length means length of the resulting string.
+.parameter string means which to be attached in result
+.
+
+6 padStart:
+.The padStart method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. 
+.The padding is applied from the start of the current string.
+
+7 repeat:
+.The repeat method constructs and returns a new string which contains
+ the specified number of copies of the string on which it was called, concatenated together.
+
+ 8 replace:
+ .The replace method returns a new string with some or all matches of a pattern replaced by a replacement.
+ .The pattern can be a string or a regular expression, and the replacement can be a string or a function
+
+ 9 search:
+. The search method executes a search for a match between a regular expression and this String object.
+
+10 slice:
+.The slice method extracts a section of a string and returns it as a new string,
+without modifying the original string.
+
+11 split:
+// The split method divides a string into an ordered list of substrings,
+// puts these substrings into an array, and returns the array. 
+// The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.
+
+
+
+12 startsWith:
+// The startsWith method determines whether a string begins with the characters of a specified string,
+// returning true or false.
+
+
+
+13 substr:
+// The substr method returns a portion of the string, 
+// starting at the specified index and extending for a given number of characters afterward.
+
+
+
+14 substring:
+// The substring method returns the part of the string between the start and end indexes, or to the end of the string.
+
+
+
+15 toLowerCase:
+// The toLowerCase method returns the calling string value converted to lower case.
+
+
+
+16 toUpperCase:
+// The toUpperCase method returns the calling string value converted to upper case.
+
+
+
+17 trim:
+// The trim method removes whitespace from both ends of a string and returns a new string, 
+// without modifying the original string.
+
+
+
+18 trimEnd:
+// The trimEnd (or trimRight) method removes whitespace from the end of a string.
+
+
+
+19 trimStart:
+// The trimStart (or trimLeft) method removes whitespace from the beginning of a string.
+
+
+20 charAt:
+// The charAt method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.
+
+
+
+21 charCodeAt:
+// The charCodeAt method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+
+
+
